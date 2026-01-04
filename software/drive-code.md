@@ -4,7 +4,12 @@ description: In this section we will go over different drive code options
 
 # Drive Code
 
-In this sec
+There are 2 different types of drive stick mappings
+
+* Tank Drive
+* [Arcade Drive](arcade-drive.md)
+
+In order to understand these 2 different stick mappings we have to understand the stick axis's in the vex IQ controller
 
 ### Vex IQ Gen 2 Controller
 
