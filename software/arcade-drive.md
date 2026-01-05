@@ -20,13 +20,13 @@ Here are 2 examples of other ways to do split arcade. We have reversed, where th
 
 {% code overflow="wrap" %}
 ```python
-int whenStarted1() { # Starts this code when the program starts
+int whenStarted1() { // Starts this code when the program starts
   while (true) {
-    RightDrive.spin(forward); # Spins the motors foward so we can control them by controlling their velocities
+    RightDrive.spin(forward); // Spins the motors foward so we can control them by controlling their velocities
     LeftDrive.spin(forward);
-    RightDrive.setVelocity((Controller.AxisA.position() + Controller.AxisC.position()), percent); # Sets the right drive to the foward stick location + the turn stick location
-    RightDrive.setVelocity((-(Controller.AxisA.position()) - Controller.AxisC.position()), percent); # Sets the left drive to the foward stick location - the turn stick location
-  wait(20, msec); # Slows down the loop a bit to speed up the brain.
+    RightDrive.setVelocity((Controller.AxisA.position() + Controller.AxisC.position()), percent); // Sets the right drive to the foward stick location + the turn stick location
+    RightDrive.setVelocity((-(Controller.AxisA.position()) - Controller.AxisC.position()), percent); // Sets the left drive to the foward stick location - the turn stick location
+  wait(20, msec); // Slows down the loop a bit to speed up the brain.
   }
   return 0; 
 }
