@@ -63,7 +63,8 @@ int main() {
 
 Tank drive is a form of driving where each sticks vertical axis controls its side motor. It lets the driver have direct control of the motors but is harder to drive
 
-| Pros                                                                              | Cons                                                                                                                           |
-| --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| Easy to code                                                                      | Uses both joysticks so you can't use 1 of them to control other things (Not really a con as not many people use 1 stick arcade) |
-| Gives you more control over your robot as you can control the motors individually | Harder to drive                                                                                                                |
+| Pros                                                                              | Cons                                                                                      |
+| --------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| Easy to code                                                                      | Uses both joysticks, so you can't use one of them to control other functions              |
+|                                                                                   | Not really a con, as most drivers don't use single-stick arcade control                   |
+| Gives you more control over your robot as you can control the motors individually | Harder to drive                                                                           |
