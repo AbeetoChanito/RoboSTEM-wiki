@@ -3,7 +3,7 @@
 ## Prerequisites:
 
 * A computer with MacOS Sonoma (14.0) or later&#x20;
-* At least 2 GB of free space Only \~60MB will be used for LDCAD, other will be used for emulation
+* At least 2 GB of free space. (Only \~60MB will be used for LDCAD; the rest will be used for emulation.)
 * A computer with the Apple Silicon Chip Series (M1 or later) Administrator privileges
 
 ## Downloading LDCAD
