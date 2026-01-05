@@ -11,4 +11,4 @@ RoboSTEM aims to inspire and prepare students for the future by providing access
 With this wiki, we aim to centralize VEX IQ knowledge that often remains inaccessible to many. By making this project open-source, anyone can contribute to this wiki at any time. We are committed to creating an inclusive VEX IQ community, and we believe that this wiki will get us one step closer.
 
 _Thank you,_\
-&#xNAN;_&#x52;oboSTEM Foundation_
+_RoboSTEM Foundation_
