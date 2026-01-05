@@ -9,13 +9,13 @@ There are 2 different types of drive stick mappings
 * Tank Drive
 * [Arcade Drive](arcade-drive.md)
 
-In order to understand these 2 different stick mappings we have to understand the stick axis's in the vex IQ controller
+In order to understand these 2 different stick mappings we have to understand the stick axes in the vex IQ controller
 
 ### Vex IQ Gen 2 Controller
 
 <figure><img src="../.gitbook/assets/Controler.jpg" alt="Vex IQ Gen 2 Controller" width="375"><figcaption><p>Image taken from vexrobotics.com</p></figcaption></figure>
 
-The vex IQ gen 2 controller has 2 joysticks. They each have 2 axis's with horizontal and vertical axis's.&#x20;
+The vex IQ gen 2 controller has 2 joysticks. They each have 2 axes with horizontal and vertical axes.&#x20;
 
 | Stick       | Horizontal | Vertical |
 | ----------- | ---------- | -------- |
