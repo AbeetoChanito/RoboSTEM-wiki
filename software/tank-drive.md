@@ -26,8 +26,8 @@ def when_started1():
     RightDrive.spin(FORWARD) # Spin the motors to so we can adjust the speed later with the sticks
     LeftDrive.spin(FORWARD)
     while True:
-        LeftDrive.set_velocity(controller.axisA.position(), PERCENT) # Set the right drive speed to the controller axis D (Vertical Right)
-        RightDrive.set_velocity(-(controller.axisD.position()), PERCENT) # Set the left drive speed to the controller axis A (Vertical Left)
+        LeftDrive.set_velocity(controller.axisA.position(), PERCENT) # Set the left drive speed to the controller axis A (Vertical Left)
+        RightDrive.set_velocity(-(controller.axisD.position()), PERCENT) # Set the right drive speed to the controller axis D (Vertical Right)
         wait(20, MSEC)
 
 when_started1() # Call our loop
