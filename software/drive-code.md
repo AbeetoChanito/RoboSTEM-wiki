@@ -6,7 +6,7 @@ description: In this section we will go over different drive code options
 
 There are 2 different types of drive stick mappings
 
-* Tank Drive
+* [Tank Drive](tank-drive.md)
 * [Arcade Drive](arcade-drive.md)
 
 In order to understand these 2 different stick mappings we have to understand the stick axes in the vex IQ controller
