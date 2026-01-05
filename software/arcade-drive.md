@@ -26,7 +26,7 @@ int whenStarted1() { # Starts this code when the program starts
     LeftDrive.spin(forward);
     RightDrive.setVelocity((Controller.AxisA.position() + Controller.AxisC.position()), percent); # Sets the right drive to the foward stick location + the turn stick location
     RightDrive.setVelocity((-(Controller.AxisA.position()) - Controller.AxisC.position()), percent); # Sets the left drive to the foward stick location - the turn stick location
-  wait(20, msec); # Slows dowon the loop a bit to speed up the brain.
+  wait(20, msec); # Slows down the loop a bit to speed up the brain.
   }
   return 0; 
 }

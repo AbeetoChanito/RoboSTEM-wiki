@@ -12,7 +12,7 @@ description: Welcome to the RoboSTEM wiki!
 ## Getting started with VEX IQ?
 Our goal with the RoboSTEM wiki is to provide every VEX IQ team, regardless of their skill level, the resources that they need to grow their robotics knowledge.
 
-This wiki was created as an extention to [the capped pin](https://www.youtube.com/@thecappedpin) YouTube channel, however, we hope to grow it into a vast knowledge base for everything VEX IQ.
+This wiki was created as an extension to [the capped pin](https://www.youtube.com/@thecappedpin) YouTube channel, however, we hope to grow it into a vast knowledge base for everything VEX IQ.
 
 ### Where can I find more resources?
   * **[YouTube Channel](https://www.youtube.com/@thecappedpin):** The Capped Pin

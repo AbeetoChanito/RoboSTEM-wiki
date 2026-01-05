@@ -45,12 +45,12 @@ This is because the program is looking for a font called "Verdana". However, our
 1. Close LDCad.Download the FreeFont package from [this link](http://ftp.gnu.org/gnu/freefont/freefont-ttf.zip), and extract the resulting zip file.&#x20;
 2. Within the extracted contents, locate the file `FreeSans. ttf` inside the `sfd` directory.
 3. Again, find the drive\_c folder through Whisky.&#x20;
-4. Then navigate over to the `windows` folder, and then find the `Font` folder. This is the Windows font folder where well place the font file.The drive\_c folder is the same one we opened in the first part of the installation.
+4. Then navigate over to the `windows` folder, and then find the `Font` folder. This is the Windows font folder where we'll place the font file.The drive\_c folder is the same one we opened in the first part of the installation.
 5. Copy the `FreeSans.ttf` file into the Windows font folder.
 
 Make a second copy of `FreeSans.ttf` in the Windows font folder, and rename the new copy to `verdana.ttf` .
 
-There should now be two files in the Windows font folder, `FreeSans.ttf` and `verdana.ttf` . These are the two font files LDCad expects to find in this directory. If you want to use a font other than FreeSans, you can, just make sure you end up with two.ttf files in the Fonts directory with the exact names `Freeans.ttf` and `verdana.ttf` . LDCad will use `verdana.ttf` for almost everything and `FreeSans.ttf` for only the small "part info box" that appears when you select a part.
+There should now be two files in the Windows font folder, `FreeSans.ttf` and `verdana.ttf` . These are the two font files LDCad expects to find in this directory. If you want to use a font other than FreeSans, you can, just make sure you end up with two.ttf files in the Fonts directory with the exact names `FreeSans.ttf` and `verdana.ttf` . LDCad will use `verdana.ttf` for almost everything and `FreeSans.ttf` for only the small "part info box" that appears when you select a part.
 
 
 
