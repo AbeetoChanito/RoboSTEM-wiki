@@ -2,7 +2,7 @@
 
 ## Prerequisites:
 
-1. A computer with Windows 10 and internet access At least 60 MB of free space&#x20;
+1. A computer with Windows 10 and internet access, and at least 60 MB of free space&#x20;
 2. Common Sense
 
 ## Downloading LDCad
