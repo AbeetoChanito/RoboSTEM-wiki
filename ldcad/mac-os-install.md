@@ -43,7 +43,7 @@ This is because the program is looking for a font called "Verdana". However, our
 **We will replace this with the GNU Free Font FreeSans.**
 
 1. Close LDCad.Download the FreeFont package from [this link](http://ftp.gnu.org/gnu/freefont/freefont-ttf.zip), and extract the resulting zip file.&#x20;
-2. Within the extracted contents, locate the file `FreeSans. ttf` inside the `sfd` directory.
+2. Within the extracted contents, locate the file `FreeSans.ttf` inside the `sfd` directory.
 3. Again, find the drive\_c folder through Whisky.&#x20;
 4. Then navigate over to the `windows` folder, and then find the `Font` folder. This is the Windows font folder where we'll place the font file.The drive\_c folder is the same one we opened in the first part of the installation.
 5. Copy the `FreeSans.ttf` file into the Windows font folder.
