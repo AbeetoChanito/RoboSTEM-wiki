@@ -44,7 +44,7 @@ int whenStarted1() {
   while (true) {
     LeftDrive.setVelocity(Controller.AxisA.position(), percent); // Set the left drive speed to the controller axis A (Vertical Left)
     RightDrive.setVelocity(-(Controller.AxisD.position()), percent); // Set the right drive speed to the controller axis D (Vertical Right)
-  wait(20, msec);
+    wait(20, msec);
   }
   return 0;
 }
