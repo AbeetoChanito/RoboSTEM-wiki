@@ -59,8 +59,8 @@ int whenStarted() { // Starts this code when the program starts
     double maxPower = fmax(fabs(leftPower), fabs(rightPower));
     
     if (maxPower > 100) {
-        leftRaw = (leftRaw / maxPower) * 100;
-        rightRaw = (rightRaw / maxPower) * 100;
+        leftPower = (leftPower / maxPower) * 100;
+        rightPower = (rightPower / maxPower) * 100;
     }
 
     LeftDrive.setVelocity(leftPower, percent);
