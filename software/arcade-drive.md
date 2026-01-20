@@ -40,7 +40,7 @@ Ultimately, which one you decide to use comes down to driver preference.
 <figure><img src="../.gitbook/assets/Screenshot 2026-01-05 at 12.06.33 AM.png" alt="" width="375"><figcaption></figcaption></figure>
 
 
-## Split Arcade Coding  (Advanced)
+## Split Arcade Coding (Advanced)
 
 ```c++
 constexpr double throttleGain = 1.0;

@@ -4,23 +4,18 @@ description: In this section we will explain what tank drive is and how to code 
 
 # Tank Drive
 
-### Tank Drive
+## Tank Drive
 
-Tank drive is another form of stick mapping. The concept of it is to have the left stick's vertical axis control the speed of the left side of the drive train and the right stick's vertical axis control the right side of the drive train.
+Tank drive is another form of stick mapping. Each side of the drivetrain is controlled independently by its own stick.
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-01-05 at 10.00.37 PM.png" alt="" width="563"><figcaption><p>Image from codeiq.vex.com</p></figcaption></figure>
+<img src="../.gitbook/assets/Screenshot 2026-01-05 at 10.00.37 PM.png" alt="" width="563">
 
-### How to code Tank Drive
+## Tank Coding (Basic)
 
-{% tabs %}
-{% tab title="Blocks" %}
-<figure><img src="../.gitbook/assets/Screenshot 2026-01-05 at 10.12.28 PM.png" alt="Code in blocks form" width="563"><figcaption></figcaption></figure>
+<img src="../.gitbook/assets/Screenshot 2026-01-05 at 10.12.28 PM.png" alt="Code in blocks form" width="563">
 
-{% file src="../.gitbook/assets/Tank Drive.iqblocks" %}
-{% endtab %}
+## Tank Coding (Advanced)
 
-{% tab title="Python" %}
-{% code overflow="wrap" %}
 ```py
 def when_started1():
     RightDrive.spin(FORWARD) # Spin the motors to so we can adjust the speed later with the sticks
@@ -32,18 +27,14 @@ def when_started1():
 
 when_started1() # Call our loop
 ```
-{% endcode %}
-{% endtab %}
 
-{% tab title="C++" %}
-{% code overflow="wrap" %}
 ```c++
 int whenStarted1() {
   RightDrive.spin(forward); // Spin the motors to so we can adjust the speed later with the sticks
   LeftDrive.spin(forward);
   while (true) {
     LeftDrive.setVelocity(Controller.AxisA.position(), percent); // Set the left drive speed to the controller axis A (Vertical Left)
-    RightDrive.setVelocity(-(Controller.AxisD.position()), percent); // Set the right drive speed to the controller axis D (Vertical Right)
+    RightDrive.setVelocity(Controller.AxisD.position(), percent); // Set the right drive speed to the controller axis D (Vertical Right)
     wait(20, msec);
   }
   return 0;
@@ -52,19 +43,6 @@ int whenStarted1() {
 
 int main() {
   vexcodeInit();
-  whenStarted1(); // Call our loop
+  whenStarted1();
 }
 ```
-{% endcode %}
-{% endtab %}
-{% endtabs %}
-
-### Summary
-
-Tank drive is a form of driving where each sticks vertical axis controls its side motor. It lets the driver have direct control of the motors but is harder to drive
-
-| Pros                                                                              | Cons                                                                                      |
-| --------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| Easy to code                                                                      | Uses both joysticks, so you can't use one of them to control other functions              |
-|                                                                                   | Not really a con, as most drivers don't use single-stick arcade control                   |
-| Gives you more control over your robot as you can control the motors individually | Harder to drive                                                                           |
