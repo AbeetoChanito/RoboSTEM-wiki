@@ -4,7 +4,7 @@
 
 
 
-**Creating a New Model** Click on “Start a new model” in the “Getting started” menu. Type in a name, and click “Ok”. (First time setup): After you create a new model, click on “View”, “Editing views”, and click on “Rotation control (Trackball)”. It should say “Rotation control (Spin)” after you click it. Click on the blue X to close the menu. This makes the view controls easier.&#x20;
+**Creating a New Model.** Click on “Start a new model” in the “Getting started” menu. Type in a name, and click “Ok”. (First time setup): After you create a new model, click on “View”, “Editing views”, and click on “Rotation control (Trackball)”. It should say “Rotation control (Spin)” after you click it. Click on the blue X to close the menu. This makes the view controls easier.&#x20;
 
 **Opening a Model** Click on “Open a new model from disk”, and find the model, then double click the file. You should see the model loading in.&#x20;
 
