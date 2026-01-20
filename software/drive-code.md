@@ -12,7 +12,7 @@ In order to understand these 2 different stick mappings, we first have to unders
 
 <img src="../.gitbook/assets/Controler.jpg" alt="Vex IQ Gen 2 Controller" width="375">
 
-The VEX IQ Gen 2 controller has 2 joysticks, which each have their own horizontal and vertical axes. 20;
+The VEX IQ Gen 2 controller has 2 joysticks, which each have their own horizontal and vertical axes.
 
 | Stick       | Horizontal | Vertical |
 | ----------- | ---------- | -------- |
