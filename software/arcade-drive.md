@@ -1,5 +1,5 @@
 ---
-description: This section will highlight how to code different drive methods.
+description: This section will highlight how to code arcade drive.
 ---
 
 # Arcade Drive

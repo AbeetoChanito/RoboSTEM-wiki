@@ -1,5 +1,5 @@
 ---
-description: In this section we will explain what tank drive is and how to code it
+description: This section will highlight how to code tank drive.
 ---
 
 # Tank Drive

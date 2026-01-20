@@ -1,5 +1,5 @@
 ---
-description: In this section we will go over different drive code options
+description: This section will go over different drive coding options.
 ---
 
 # Drive Code

@@ -5,7 +5,6 @@
 * A computer with MacOS Sonoma (14.0) or later&#x20;
 * At least 2 GB of free space. (Only \~60MB will be used for LDCAD; the rest will be used for emulation.)
 * A computer with the Apple Silicon Chip Series (M1 or later)
-* Administrator privileges
 
 ## Downloading LDCAD
 
@@ -25,8 +24,6 @@ Click on the link, and download the installer. Once installed, open the app.
 
 On the **top right corner**, click the **+** symbol. Name the "bottle" anything. I use "LDCad". If this is your first time using Whisky, creating the bottle may take some time.
 
-#### **!! IMPORTANT**&#x20;
-
 Once your bottle is created, go into the **lower right hand corner** and click the **"Open C: Drive** button. Here, drag your LDCadVEX folder into drivec > Users > crossover > Desktop.
 
 Now, go back to Whisky and click the **Run...** button in the lower right hand corner. Select the **LDCadVEX.exe** file that is in the folder you just now moved. After a while, you will see an installation prompt. Follow through.
@@ -39,7 +36,7 @@ Once you enter the program, you'll see a lot of X's
 
 <figure><img src="../.gitbook/assets/Screenshot 2026-01-05 at 10.44.20 PM.png" alt="" width="375"><figcaption></figcaption></figure>
 
-This is because the program is looking for a font called "Verdana". However, our fonts folder is empty, because of a totally clean install of Windows emulation.
+This is because the program is looking for a font called "Verdana." However, our fonts folder is empty, because of a totally clean install of Windows.
 
 **We will replace this with the GNU Free Font FreeSans.**
 
@@ -87,4 +84,4 @@ Follow the guide again.
 
 </details>
 
-If you have any other issues please DM @ruiguan on the capped pins discord
+If you have any other issues please DM @ruiguan on Discord.
