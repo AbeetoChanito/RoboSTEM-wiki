@@ -55,7 +55,7 @@
 
 
 
-More Part Manipulation
+## More Part Manipulation
 
 **To place a flexible part** (chain, ropes, smart cables), place it as usual but a menu will show up. Make sure to “create a new MPD submodel with this template” is selected, then click on “Select”. Another menu will show up, just click “Ok”.&#x20;
 
