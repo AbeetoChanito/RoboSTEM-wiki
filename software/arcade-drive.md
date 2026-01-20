@@ -70,7 +70,11 @@ int whenStarted() { // Starts this code when the program starts
   return 0; 
 }
 
-whenStarted();
+int main() {
+  vexcodeInit();
+  whenStarted();
+  return 0;
+}
 ```
 
 If you want to use a different arcade configuration, change the `throttle` and `turn` variables accordingly.
