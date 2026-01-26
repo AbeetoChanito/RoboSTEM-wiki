@@ -17,6 +17,6 @@ Although LD CAD is only officially supported on Windows, we will also go over ho
 
 ## What hardware specs do I need to run LD CAD?
 
-All you need to run LD CAD is a mac OS or windows computer with around 100mb (For windows) or \~5GB for Mac/Apple, although a mouse is recommended to make it easier.
+All you need to run LD CAD is a macOS or Windows computer with around 100 MB (for Windows) or ~5 GB for Mac/Apple, although a mouse is recommended to make it easier.
 
 
