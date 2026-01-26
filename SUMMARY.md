@@ -13,5 +13,5 @@
 
 * [LD CAD](ldcad/ld-cad.md)
 * [Windows Install](ldcad/windows-install.md)
-* [Mac OS Install](ldcad/mac-os-install.md)
+* [macOS Install](ldcad/mac-os-install.md)
 * [User Interface](ldcad/user-interface.md)
