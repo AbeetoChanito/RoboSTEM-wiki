@@ -43,6 +43,19 @@ Ultimately, which one you decide to use comes down to driver preference.
 ## Split Arcade Coding (Advanced)
 
 ```c++
+/*
+ * ARCADE DRIVE LOGIC EXPLANATION:
+ * * 1. MIXING: Combines 'throttle' (forward/backward) and 'turn' (left/right) 
+ * into individual motor speeds.
+ * - LeftPower (throttle + turn): Adding 'turn' makes the left side spin 
+ * faster to pivot the robot right.
+ * - RightPower (throttle - turn): Subtracting 'turn' makes the right side 
+ * spin slower (or backward) to pivot the robot right.
+ * * 2. NORMALIZATION (The 'if' block):
+ * - If the combined power exceeds 100%, it scales both values down 
+ * proportionally. This preserves the "ratio" of the turn, ensuring 
+ * the robot still turns accurately even at full throttle.
+ */
 constexpr double throttleGain = 1.0;
 constexpr double turnGain = 1.0;
 
